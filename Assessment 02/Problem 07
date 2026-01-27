@@ -3,12 +3,12 @@
 int main(){
     int num,digit0,digit1;
     digit0=num%10;
-    digit1=num/10;
+    digit1==num/10;
     if(digit0=digit1){
-        printf("1")
+        printf("1");
     }
     else{
-        printf("0")
+        printf("0");
     }
     return o;
 }
