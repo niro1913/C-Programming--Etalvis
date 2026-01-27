@@ -1,0 +1,14 @@
+// digit0 is less than digit1
+#include<stdio.h>
+int main(){
+    int num,digit0,digit1;
+    scanf("%d",&num);
+    digit0=num%10;
+    digit1=num/10;
+    if(digit0<digit1){
+        printf("success");
+    }
+    else{
+        printf("failure");
+    }
+}
