@@ -1,0 +1,16 @@
+//digit1 is less than or equal to digit0  then print as 1 otherwise 0
+#include<stdio.h>
+int main(){
+    int num,digit0,digit1;
+    scanf("%d",&num);
+    digit0=num%10;
+    digit1=num/10;
+    if(digit1<=digit0){
+        printf("1");
+    }
+    else{
+        printf("0");
+    }
+    return 0;
+}
+
