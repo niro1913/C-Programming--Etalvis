@@ -1,0 +1,12 @@
+//loop program to print 5 to 1
+#include<stdio.h>
+int main(){
+    int a;
+    a=5;
+    loop:if(a>=1)
+{
+    printf("%d\n",a);
+    a=a-1;
+    goto loop;
+}
+}
