@@ -1,0 +1,18 @@
+// first 2 digit and last 2 digit are same
+#include<stdio.h>
+int main(){
+    int num,digit0,digit1,digit2,digit3,ab,cd;
+    scanf("%d",&num);
+    digit0=num%10;
+    digit1=(num/10)%10;
+    digit2=(num/100)%10;
+    digit3=(num/1000);
+    ab=digit1*10+digit0;
+    cd=digit3*10+digit2;
+    if(ab==cd){
+        printf("success");
+    }
+    else{
+        printf("failure");
+    }
+}
