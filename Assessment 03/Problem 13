@@ -1,0 +1,16 @@
+// get a four digit from user digit0 and digit1 are same or not
+#include<stdio.h>
+int main(){
+    int num,digit0,digit1,digit2,digit3;
+    scanf("%d",&num);
+    digit0=num%10;
+    digit1=(num/10)%10;
+    digit2=num/100;
+    digit3=num/1000;
+    if(digit0==digit1){
+        printf("success");
+    }
+    else{
+        printf("failure");
+    }
+}
