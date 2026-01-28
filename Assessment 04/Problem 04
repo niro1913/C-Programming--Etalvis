@@ -1,0 +1,14 @@
+//sum of 6 to 1 
+#include<stdio.h>
+int main(){
+    int i,sum;
+    i=6;
+    sum=0;
+    loop:if(i>=1){
+        sum=sum+i;
+        i--;
+        goto loop;
+    }
+    printf("%d",sum);
+    return 0;
+}
