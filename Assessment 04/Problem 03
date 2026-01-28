@@ -1,0 +1,14 @@
+// sum of 1 to 5 using if
+#include<stdio.h>
+int main(){
+    int i,sum;
+    i=1;
+    sum=0;
+    loop:if(i<=5){
+        sum=sum+i;
+        i++;
+        goto loop;
+    }
+    printf("%d",sum);
+    return 0;
+}
