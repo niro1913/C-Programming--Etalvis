@@ -1,0 +1,17 @@
+// sum of two digit odd number whose tens digit is 7
+#include<stdio.h>
+int main(){
+    int i,sum;
+    i=70;
+    sum=0;
+    loop:
+    if(i<80){
+        if(i%2!=0){
+            sum=sum+i;
+        }
+        i++;
+        goto loop;
+    }
+    printf("%d",sum);
+    return 0;
+}
