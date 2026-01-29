@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+    int i,a,b;
+    i=11;
+    loop:
+    if(i<100){
+        a=i%10;
+        b=i/10;
+        if(i%2==0){
+            if(a+b==6){
+                printf("%d\n",i);
+            }
+        }
+        i++;
+        goto loop;
+    }
+    return 0;
+}
